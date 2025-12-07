@@ -4,7 +4,7 @@ public class Solution
 {
 	public static void PartOne()
 	{
-		string fileText = File.ReadAllText("Day02/input.txt");
+		string fileText = File.ReadAllText("2025/Day02/input.txt");
 		IEnumerable<(long, long)> idRanges = fileText.Split(",").Select(x =>
 		{
 			var range = x.Split("-");

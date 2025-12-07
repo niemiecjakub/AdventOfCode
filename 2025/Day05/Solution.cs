@@ -4,7 +4,7 @@ public class Solution
 {
   public static void PartOne()
   {
-    string[] input = File.ReadAllText("Day05/input.txt").Split("\n");
+    string[] input = File.ReadAllText("2025/Day05/input.txt").Split("\n");
 
     Dictionary<long, long[]> ranges = input
       .Where(s => s.Contains("-"))

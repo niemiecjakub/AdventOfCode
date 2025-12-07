@@ -7,7 +7,7 @@ public class Solution
     int position = 50;
     int count = 0;
 
-    string[] lines = File.ReadAllLines("Day01/input.txt");
+    string[] lines = File.ReadAllLines("2025/Day01/input.txt");
     foreach (string line in lines)
     {
       int value = int.Parse(line[1..]);

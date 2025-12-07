@@ -6,7 +6,7 @@ public class Solution
 {
 	public static void PartOne()
 	{
-		string[] lines = File.ReadAllLines("Day03/input.txt");
+		string[] lines = File.ReadAllLines("2025/Day03/input.txt");
 
 		int totalJoltage = 0;
 		foreach (string input in lines)

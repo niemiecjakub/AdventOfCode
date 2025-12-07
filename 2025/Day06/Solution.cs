@@ -4,7 +4,7 @@ public class Solution
 {
   public static void PartOne()
   {
-    string[] input = File.ReadAllLines("Day06/Input.txt");
+    string[] input = File.ReadAllLines("2025/Day06/input.txt");
     var operators = input[^1].Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
     //column - math result

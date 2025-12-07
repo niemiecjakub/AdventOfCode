@@ -4,7 +4,7 @@ public class Solution
 {
   public static void PartOne()
   {
-    var input = File.ReadAllLines("Day04/input.txt");
+    var input = File.ReadAllLines("2025/Day04/input.txt");
     var lines = input.Select(c => c.ToCharArray()).ToArray();
 
     var offsets = new (int, int)[]

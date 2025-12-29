@@ -48,19 +48,23 @@ public class Solution
         int minY = Math.Min(p1.Y, p2.Y);
         int maxY = Math.Max(p1.Y, p2.Y);
         for (int y = minY + 1; y < maxY; y++)
+        {
           greenTiles.Add(new Point(p1.X, y));
+        }
       }
       else if (p1.Y == p2.Y)
       {
         int minX = Math.Min(p1.X, p2.X);
         int maxX = Math.Max(p1.X, p2.X);
         for (int x = minX + 1; x < maxX; x++)
+        {
           greenTiles.Add(new Point(x, p1.Y));
+        }
       }
     }
 
-    var boundaryTiles = redTiles.Concat(greenTiles).ToList();
-    var rowRanges = boundaryTiles
+    var rowRanges = redTiles
+      .Concat(greenTiles)
       .GroupBy(p => p.Y)
       .ToDictionary(
         g => g.Key,

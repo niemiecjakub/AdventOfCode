@@ -1,5 +1,5 @@
 ﻿
-using AdventOfCode.Year2025.Day09;
+using AdventOfCode.Year2025.Day10;
 using System.Diagnostics;
 
 void WithStopwatch(Action action)
@@ -10,4 +10,4 @@ void WithStopwatch(Action action)
   Console.WriteLine($"Elapsed Time: {stopwatch.ElapsedMilliseconds} ms");
 }
 
-WithStopwatch(Solution.PartTwo);
+WithStopwatch(Solution.PartOne);

@@ -1,6 +1,6 @@
-﻿namespace AdventOfCode.Year2025.Day10;
+﻿using System.Text.RegularExpressions;
 
-using System.Text.RegularExpressions;
+namespace AdventOfCode.Year2025.Day10;
 
 public class Solution
 {

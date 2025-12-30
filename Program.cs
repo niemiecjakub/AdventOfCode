@@ -10,4 +10,4 @@ void WithStopwatch(Action action)
   Console.WriteLine($"Elapsed Time: {stopwatch.ElapsedMilliseconds} ms");
 }
 
-WithStopwatch(Solution.PartOne);
+WithStopwatch(Solution.PartTwo);
